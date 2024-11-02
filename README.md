@@ -10,3 +10,7 @@ games:
 **ESCAPE SMILEY CASTLE OBBY 🙂**  ```https://www.roblox.com/games/14667507597/ESCAPE-SMILEY-CASTLE-OBBY```  
 
 ```loadstring(game:HttpGet("https://raw.githubusercontent.com/Codingninjagiri/script-hub/refs/heads/main/escapesmileycastleobby.lua",true))()```
+
+**Obby but you're a fish** ```https://www.roblox.com/games/14074409839/obby-but-youre-a-fish```
+
+```loadstring(game:HttpGet("https://raw.githubusercontent.com/Codingninjagiri/script-hub/refs/heads/main/obbybuturafish.lua",true))()```
