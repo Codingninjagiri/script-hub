@@ -18,3 +18,7 @@ games:
 **Obby but you're a spider** ```https://www.roblox.com/games/17421018008/UPD-Obby-but-youre-a-Spider```
 
 ```loadstring(game:HttpGet("https://raw.githubusercontent.com/Codingninjagiri/script-hub/refs/heads/main/obbybuturaspider.lua",true))()```
+
+**Obby but you're a leaf** ```https://www.roblox.com/games/14305134857/Obby-but-youre-a-leaf```
+
+```loadstring(game:HttpGet("https://raw.githubusercontent.com/Codingninjagiri/script-hub/refs/heads/main/obbybuturaleaf.lua",true))()```
