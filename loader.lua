@@ -1,26 +1,29 @@
--- Table of target game IDs and their corresponding loadstring URLs
+-- Table of target game IDs and their corresponding loadstring code
 local targetGames = {
-    [11308951249] = "https://raw.githubusercontent.com/Codingninjagiri/script-hub/refs/heads/main/obbybuturabird.lua", 
-    [14667507597] = "https://raw.githubusercontent.com/Codingninjagiri/script-hub/refs/heads/main/escapesmileycastleobby.lua"
-    -- Add more games as needed 
+    [11308951249] = [[
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/Codingninjagiri/script-hub/refs/heads/main/obbybuturabird.lua",true))()
+    ]],
+    [14667507597] = [[
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/Codingninjagiri/script-hub/refs/heads/main/escapesmileycastleobby.lua",true))()
+    ]]
+    -- Add more games as needed
 }
 
--- Function to execute loadstring if the game ID matches
+-- Function to execute the loadstring if the game ID matches
 local function executeForGame(gameId)
-    local urlToExecute = targetGames[gameId]
-    if urlToExecute then
-        -- Try to load and execute the loadstring from the URL
+    local codeToExecute = targetGames[gameId]
+    if codeToExecute then
+        -- Try to execute the code stored in the table
         local success, err = pcall(function()
-            local code = game:HttpGet(urlToExecute, true)  -- Fetch the code from URL
-            loadstring(code)()  -- Execute the fetched code
+            loadstring(codeToExecute)()  -- Execute the predefined code
         end)
 
         -- Handle any errors that might occur during execution
         if not success then
-            warn("Error executing loadstring: " .. err)
+            warn("Error executing script for Game ID " .. gameId .. ": " .. err)
         end
     else
-        print("No loadstring found for this game ID.")
+        print("No script found for this game ID.")
     end
 end
 
