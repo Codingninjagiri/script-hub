@@ -1,7 +1,7 @@
 -- Table of target game IDs and their corresponding loadstring codes
 local targetGames = {
     [11308951249] = "https://raw.githubusercontent.com/Codingninjagiri/script-hub/refs/heads/main/obbybuturabird.lua", -- Replace with your actual loadstring code for Game 1
-
+    [14667507597] = "https://raw.githubusercontent.com/Codingninjagiri/script-hub/refs/heads/main/escapesmileycastleobby.lua",
     -- Add more games as needed 
 }
 
