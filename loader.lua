@@ -1,6 +1,6 @@
 -- Table of target game IDs and their corresponding loadstring codes
 local targetGames = {
-    [123456789] = "print('Executed in Game 1!')", -- Replace with your actual loadstring code for Game 1
+    [11308951249] = "https://raw.githubusercontent.com/Codingninjagiri/script-hub/refs/heads/main/obbybuturabird.lua", -- Replace with your actual loadstring code for Game 1
 
     -- Add more games as needed 
 }
