@@ -1,17 +1,18 @@
--- Table of target game IDs and their corresponding loadstring codes
+-- Table of target game IDs and their corresponding loadstring URLs
 local targetGames = {
-    [11308951249] = "loadstring(game:HttpGet("https://raw.githubusercontent.com/Codingninjagiri/script-hub/refs/heads/main/obbybuturabird.lua",true))()", -- Replace with your actual loadstring code for Game 1
-    [14667507597] = "loadstring(game:HttpGet("https://raw.githubusercontent.com/Codingninjagiri/script-hub/refs/heads/main/escapesmileycastleobby.lua",true))()",
+    [11308951249] = "https://raw.githubusercontent.com/Codingninjagiri/script-hub/refs/heads/main/obbybuturabird.lua", 
+    [14667507597] = "https://raw.githubusercontent.com/Codingninjagiri/script-hub/refs/heads/main/escapesmileycastleobby.lua"
     -- Add more games as needed 
 }
 
 -- Function to execute loadstring if the game ID matches
 local function executeForGame(gameId)
-    local codeToExecute = targetGames[gameId]
-    if codeToExecute then
-        -- Execute the loadstring
+    local urlToExecute = targetGames[gameId]
+    if urlToExecute then
+        -- Try to load and execute the loadstring from the URL
         local success, err = pcall(function()
-            loadstring(codeToExecute)()
+            local code = game:HttpGet(urlToExecute, true)  -- Fetch the code from URL
+            loadstring(code)()  -- Execute the fetched code
         end)
 
         -- Handle any errors that might occur during execution
