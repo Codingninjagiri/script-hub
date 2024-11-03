@@ -3,7 +3,7 @@
 
 games:
 
-**Obby but you're a bird**  ****Complete game & Teleports****  ```https://www.roblox.com/games/11308951249/obby-but-youre-a-bird```
+**Obby but you're a bird**  **Complete game & Teleports**  ```https://www.roblox.com/games/11308951249/obby-but-youre-a-bird```
 
 ```loadstring(game:HttpGet("https://raw.githubusercontent.com/Codingninjagiri/script-hub/refs/heads/main/obbybuturabird.lua",true))()```
 
