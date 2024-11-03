@@ -26,3 +26,7 @@ games:
 **[WORLD 2] Chained [2 Player Obby]** ```https://www.roblox.com/games/18201401125/WORLD-2-Chained-2-Player-Obby```
 
 ```loadstring(game:HttpGet("https://raw.githubusercontent.com/Codingninjagiri/script-hub/refs/heads/main/Chained%20%5B2%20Player%20Obby%5D.lua",true))()```
+
+**Natural Disaster Survival** ```https://www.roblox.com/games/189707/Natural-Disaster-Survival```
+
+```loadstring(game:HttpGet("https://raw.githubusercontent.com/Codingninjagiri/script-hub/refs/heads/main/naturaldisastersurvival.lua",true))()```
