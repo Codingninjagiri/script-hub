@@ -37,4 +37,4 @@ games:
 
 **Gravity [2 Player Obby]** ```https://www.roblox.com/games/13717130956/Gravity-2-Player-Obby```
 
-```loadstring(game:HttpGet("https://raw.githubusercontent.com/Codingninjagiri/script-hub/refs/heads/main/Gravity%20%5B2%20Player%20Obby%5D.lua",true))()```    ```- TO BYPASS DETECTIONS AFTER GOING TO A MAP EVEN IF IT DIES LET IT CONTINUE BECAUSE ITS STILL WORKING```
+```loadstring(game:HttpGet("https://raw.githubusercontent.com/Codingninjagiri/script-hub/refs/heads/main/Gravity%20%5B2%20Player%20Obby%5D.lua",true))()```    ```@@TO BYPASS DETECTIONS AFTER GOING TO A MAP EVEN IF IT DIES LET IT CONTINUE BECAUSE ITS STILL WORKING@@```
