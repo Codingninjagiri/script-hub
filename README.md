@@ -30,3 +30,7 @@ games:
 **Natural Disaster Survival** ```https://www.roblox.com/games/189707/Natural-Disaster-Survival```
 
 ```loadstring(game:HttpGet("https://raw.githubusercontent.com/Codingninjagiri/script-hub/refs/heads/main/naturaldisastersurvival.lua",true))()```
+
+**Hide Or Die** ```https://www.roblox.com/games/18799085098/Hide-or-Die```
+
+```loadstring(game:HttpGet("https://raw.githubusercontent.com/Codingninjagiri/script-hub/refs/heads/main/hideordie.lua",true))()```
