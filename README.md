@@ -42,3 +42,8 @@ games:
 **[🎃X2 EVENT👻] 💪🏻 Lifting Simulator** ```https://www.roblox.com/games/3652625463/X2-EVENT-Lifting-Simulator```
 
 ```loadstring(game:HttpGet("https://raw.githubusercontent.com/Codingninjagiri/script-hub/refs/heads/main/lifting%20simulator.lua",true))()```
+
+**🎲 Shoes! RNG** ```https://www.roblox.com/games/86759536915583/Shoes-RNG```
+
+```loadstring(game:HttpGet("https://raw.githubusercontent.com/Codingninjagiri/script-hub/refs/heads/main/shoesrng.lua",true))()```
+
