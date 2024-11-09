@@ -47,3 +47,7 @@ games:
 
 ```loadstring(game:HttpGet("https://raw.githubusercontent.com/Codingninjagiri/script-hub/refs/heads/main/shoesrng.lua",true))()```
 
+**Anime Training RNG** ```https://www.roblox.com/games/137461040918786/Anime-Training-RNG```
+
+```loadstring(game:HttpGet("https://raw.githubusercontent.com/Codingninjagiri/script-hub/refs/heads/main/animetrainingrng.lua",true))()```
+
