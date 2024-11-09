@@ -38,3 +38,7 @@ games:
 **Gravity [2 Player Obby]** ```https://www.roblox.com/games/13717130956/Gravity-2-Player-Obby```
 
 ```loadstring(game:HttpGet("https://raw.githubusercontent.com/Codingninjagiri/script-hub/refs/heads/main/Gravity%20%5B2%20Player%20Obby%5D.lua",true))()```  <---  to bypass dying do not leave the game
+
+**[🎃X2 EVENT👻] 💪🏻 Lifting Simulator** ```https://www.roblox.com/games/3652625463/X2-EVENT-Lifting-Simulator```
+
+```loadstring(game:HttpGet("https://raw.githubusercontent.com/Codingninjagiri/script-hub/refs/heads/main/lifting%20simulator.lua",true))()```
