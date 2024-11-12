@@ -11,8 +11,8 @@ local gameScripts = {
     [13717130956] = "loadstring(game:HttpGet('https://raw.githubusercontent.com/Codingninjagiri/script-hub/refs/heads/main/Gravity%20%5B2%20Player%20Obby%5D.lua', true))()",
     [3652625463] = "loadstring(game:HttpGet('https://raw.githubusercontent.com/Codingninjagiri/script-hub/refs/heads/main/lifting%20simulator.lua', true))()",
     [86759536915583] = "loadstring(game:HttpGet('https://raw.githubusercontent.com/Codingninjagiri/script-hub/refs/heads/main/shoesrng.lua', true))()",
-    [137461040918786] = "loadstring(game:HttpGet('https://raw.githubusercontent.com/Codingninjagiri/script-hub/refs/heads/main/animetrainingrng.lua', true))()"
-    [18901165922] = "loadstring(game:HttpGet(https://raw.githubusercontent.com/Codingninjagiri/script-hub/refs/heads/main/pets%20go%20exodus.lua', true))()"
+    [137461040918786] = "loadstring(game:HttpGet('https://raw.githubusercontent.com/Codingninjagiri/script-hub/refs/heads/main/animetrainingrng.lua', true))()",
+    [18901165922] = "loadstring(game:HttpGet('https://raw.githubusercontent.com/Codingninjagiri/script-hub/refs/heads/main/pets%20go%20exodus.lua', true))()"
 }
 
 -- Get the current game ID
