@@ -1,4 +1,3 @@
--- Define a table that maps game IDs to their respective scripts
 local gameScripts = {
     [11308951249] = "loadstring(game:HttpGet('https://raw.githubusercontent.com/Codingninjagiri/script-hub/refs/heads/main/obbybuturabird.lua', true))()",
     [14667507597] = "loadstring(game:HttpGet('https://raw.githubusercontent.com/Codingninjagiri/script-hub/refs/heads/main/escapesmileycastleobby.lua', true))()",
@@ -15,10 +14,8 @@ local gameScripts = {
     [18901165922] = "loadstring(game:HttpGet('https://raw.githubusercontent.com/Codingninjagiri/script-hub/refs/heads/main/pets%20go%20exodus.lua', true))()"
 }
 
--- Get the current game ID
 local currentGameId = game.PlaceId
 
--- Check if there's a script for the current game ID and execute it
 if gameScripts[currentGameId] then
     local scriptToExecute = gameScripts[currentGameId]
     loadstring(scriptToExecute)()
