@@ -11,8 +11,8 @@ local gameScripts = {
     [3652625463] = "loadstring(game:HttpGet('https://raw.githubusercontent.com/Codingninjagiri/script-hub/refs/heads/main/lifting%20simulator.lua', true))()",
     [86759536915583] = "loadstring(game:HttpGet('https://raw.githubusercontent.com/Codingninjagiri/script-hub/refs/heads/main/shoesrng.lua', true))()",
     [137461040918786] = "loadstring(game:HttpGet('https://raw.githubusercontent.com/Codingninjagiri/script-hub/refs/heads/main/animetrainingrng.lua', true))()",
-    [18901165922] = "loadstring(game:HttpGet('https://raw.githubusercontent.com/Codingninjagiri/script-hub/refs/heads/main/pets%20go%20exodus.lua', true))()"
-    [18768679013] = "loadstring(game:HttpGet("https://raw.githubusercontent.com/Codingninjagiri/script-hub/refs/heads/main/Every%20Click%20%2B1%20Speed.lua",true))()"
+    [18901165922] = "loadstring(game:HttpGet('https://raw.githubusercontent.com/Codingninjagiri/script-hub/refs/heads/main/pets%20go%20exodus.lua', true))()",
+    [18768679013] = "loadstring(game:HttpGet('https://raw.githubusercontent.com/Codingninjagiri/script-hub/refs/heads/main/Every%20Click%20%2B1%20Speed.lua', true))()"
 }
 
 local currentGameId = game.PlaceId
